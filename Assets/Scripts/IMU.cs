@@ -17,6 +17,11 @@ public class IMU : MonoBehaviour {
         return acceleration;
     }
 
+    public float GetAltitude ()
+    {
+        return transform.position.y;
+    }
+
 	// Use this for initialization
 	void Start () {
 		
